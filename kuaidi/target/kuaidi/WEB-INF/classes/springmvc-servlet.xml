@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:websocket="http://www.springframework.org/schema/websocket"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/websocket
+        http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+
+    <context:component-scan base-package="com.*"/>
+    <!--启用spring的一些annotation -->
+    <context:annotation-config/>
+    <!-- 配置处理器映射HandlerMapping -->
+    <!-- <bean name="/index.html" class="cn.controller.IndexController"></bean> -->
+    <!--静态资源映射-->
+    <!--本项目把静态资源放在了webapp的statics目录下，资源映射如下-->
+    <!--<mvc:resources mapping="/**" location="/css/"/>
+    <mvc:resources mapping="/**" location="/error/"/>
+    <mvc:resources mapping="/**" location="/image/"/>
+    <mvc:resources mapping="/**" location="/js/"/>
+    <mvc:resources mapping="/**" location="/static/"/>-->
+    <!--解决了@Controller标识的类的bean的注入和使用-->
+    <mvc:default-servlet-handler/>
+    <mvc:annotation-driven/>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <mvc:exclude-mapping path="/static/*.html"/>
+            <mvc:exclude-mapping path="/css/*.css"/>
+            <mvc:exclude-mapping path="/js/*.js"/>
+            <mvc:exclude-mapping path="/image/*.png"/>
+            <mvc:exclude-mapping path="/image/*.jpg"/>
+            <mvc:exclude-mapping path="/image/*.jpeg"/>
+            <bean class="com.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--&lt;!&ndash;websocket消息接收与处理类&ndash;&gt;-->
+    <!--<bean id="socketjs" class="com.websocket.WebSocketEndHandler"/>-->
+
+    <!--&lt;!&ndash;定义客户端与服务器握手的拦截器，可以做一些预处理&ndash;&gt;-->
+    <!--&lt;!&ndash;该拦截器专门为SockJS客户端服务的&ndash;&gt;-->
+    <!--<websocket:handlers allowed-origins="*">-->
+        <!--<websocket:mapping path="/demo/socket" handler="socketjs"/>-->
+        <!--<websocket:handshake-interceptors>-->
+            <!--<bean class="com.websocket.HandShakeIntercepter"/>-->
+        <!--</websocket:handshake-interceptors>-->
+        <!--&lt;!&ndash; 开启sockjs支持 &ndash;&gt;-->
+        <!--<websocket:sockjs/>-->
+    <!--</websocket:handlers>-->
+    <!--&lt;!&ndash; 定义客户端与服务器握手的拦截器，可以做一些预处理 &ndash;&gt;-->
+    <!--&lt;!&ndash; 该拦截器专门为WebSocket客户端服务的 &ndash;&gt;-->
+    <!--<websocket:handlers allowed-origins="*">-->
+        <!--<websocket:mapping path="/socket" handler="socketjs"/>-->
+        <!--<websocket:handshake-interceptors>-->
+            <!--<bean class="com.websocket.HandShakeIntercepter"/>-->
+        <!--</websocket:handshake-interceptors>-->
+    <!--</websocket:handlers>-->
+
+    <!--&lt;!&ndash;避免IE执行AJAX时，返回JSON出现下载文件 &ndash;&gt;-->
+    <!--<bean id="mappingJacksonHttpMessageConverter"-->
+          <!--class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">-->
+        <!--<property name="supportedMediaTypes">-->
+            <!--<list>-->
+                <!--<value>text/html;charset=UTF-8</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!-- 对模型视图名称的解析，即在模型视图名称添加前后缀(如果最后一个还是表示文件夹,则最后的斜杠不要漏了) 使用JSP-->
+    <!-- 默认的视图解析器 在上边的解析错误时使用 (默认使用html)- -->
+    <!-- 配置视图解析器 -->
+    <mvc:annotation-driven/>
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <!--可上传图片-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="UTF-8"/>
+         <property name="maxUploadSize" value="2000000"/>
+        <property name="maxInMemorySize" value="4000000"/>
+    </bean>
+
+    <!--<mvc:annotation-driven>-->
+        <!--<mvc:message-converters>-->
+            <!--<bean class="org.springframework.http.converter.StringHttpMessageConverter"/>-->
+            <!--<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>-->
+
+        <!--</mvc:message-converters>-->
+    <!--</mvc:annotation-driven>-->
+</beans>
