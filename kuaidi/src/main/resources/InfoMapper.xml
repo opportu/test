@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.InfoMapper">
+    <!--发单人发的快递信息-->
+    <insert id="addinfo" parameterType="com.pojo.Info">
+        insert into info (kind,telephone,geta,senda,note,money,confirm,confirm_send,confirm_get,pageconfirm) values (
+        #{kind},#{telephone},#{geta},#{senda},#{note},#{money},#{confirm},#{confirm_send},#{confirm_get},#{pageconfirm})
+
+    </insert>
+    <select id="findInfo" parameterType="String" resultType="com.pojo.Info">
+        select  * from info where telephone=#{telephone}
+    </select>
+
+    <select id="findAllInfo" resultType="com.pojo.Info">
+        select * from info
+    </select>
+    <select id="findgetInfo" resultType="com.pojo.Info">
+        select * from info where receive_tel = #{telephone}
+    </select>
+    <delete id="delete" parameterType="com.pojo.Info">
+        delete from info where id = #{id}
+    </delete>
+
+    <update id="alterinfo" parameterType="int">
+        alter table info auto_increment = #{i}
+    </update>
+
+    <update id="update" parameterType="info">
+        update info set id = id-1 where id > #{id}
+
+    </update>
+
+    <select id="checkInfo" parameterType="int" resultType="info">
+        select * from info where id=#{id}
+    </select>
+
+    <update id="pageconfirm" parameterType="com.pojo.Info">
+        update info set pageconfirm = #{pageconfirm} where id = #{id}
+    </update>
+
+    <update id="confirmhim" parameterType="com.pojo.Info">
+        update info set confirmhim = #{confirmhim} where id = #{id}
+    </update>
+
+    <update id="confirm" parameterType="com.pojo.Info">
+        update info set confirm = #{confirm} where id = #{id}
+    </update>
+
+    <delete id="deletereceive_tel" parameterType="com.pojo.Info">
+        delete receive_tel from info where id = #{id}
+    </delete>
+</mapper>

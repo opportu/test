@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="kuaidi:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8238205e-9699-435a-a524-309158160b8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/deb9c7d7-5b52-4951-b72e-aebdc131047e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kuaidi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuaidi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/basic/UserCommonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/commons/CommonParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/commons/Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/commons/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/AppWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UrlManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/handler/SessionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/InfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UrlManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Url.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/InfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UrlManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/InfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UrlManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/PrintWriteUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/TimeStampUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/websocket/HandShakeIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/websocket/WebSocketEndHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/InfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Intercept_url.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UrlManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/forgetPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/releaseOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/resetPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/backgroundImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/forgetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/releaseOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/resetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/forgetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/releaseOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/resetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/InfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Intercept_url.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UrlManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/basic/UserCommonStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/commons/CommonParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/commons/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/commons/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/config/AppWebMvcConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/InfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/UrlManagerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/handler/SessionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/InfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/UrlManagerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Url.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/InfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/UrlManagerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/InfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/UrlManagerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/PrintWriteUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/TimeStampUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/websocket/HandShakeIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/websocket/WebSocketEndHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/InfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/Intercept_url.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/UrlManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/basic/UserCommonStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/commons/CommonParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/commons/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/commons/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/config/AppWebMvcConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/controller/InfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/controller/UrlManagerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/handler/SessionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/mapper/InfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/mapper/UrlManagerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/pojo/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/pojo/Url.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/InfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/UrlManagerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/impl/InfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/impl/UrlManagerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/utils/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/utils/PrintWriteUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/utils/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/utils/TimeStampUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/websocket/HandShakeIntercepter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/com/websocket/WebSocketEndHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/Java-WebSocket-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/druid-1.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/gson-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-annotations-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-core-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-databind-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jackson-databind-2.8.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/jstl-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/junit-jupiter-api-5.6.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/junit-platform-commons-1.6.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/pagehelper-5.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-aop-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-beans-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-context-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-core-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-expression-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-jcl-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-messaging-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-tx-3.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-web-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-webmvc-5.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/spring-websocket-4.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/lib/testng-7.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/css/forgetPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/css/releaseOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/css/resetPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/image/backgroundImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/forgetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/releaseOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/js/resetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110224748698.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110225933657.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110230248128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/2019111023074361.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110230913738.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231038161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231049960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231052694.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231235167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231340145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231703788.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/20191110231951988.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/resource/uploads/2019/11/sliver20191109224706369.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/static/forgetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/static/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/static/releaseOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/kuaidi/static/resetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/controller/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/controller/UserControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kuaidi@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kuaidi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kuaidi" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-comfig" />
+        <option value="JavaScript File" />
+        <option value="spring-beans.schema" />
+        <option value="Mapper" />
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="1WvYlxYIYMLqDnAI2py5ljvfLXx" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Ant</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Batch Applications</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>CDI (Contexts and Dependency Injection)</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>EncapsulationJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 10Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Kotlin Android</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Velocity</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>VisibilityJava</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null&#10;pagein&#9;PSI&#9;JAVA://com.github.pagehelper.PageInfo&#10;org.&#9;FILE&#9;jar://C:/Users/八号鬼/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/META-INF/maven/org.apache.commons" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575532638780" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\html" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\js" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\static\js" />
+      <recent name="D:\spring.web\kuaidi\src\main\webapp\static\jquery" />
+      <recent name="D:\spring.web\kuaidi\src\main\webapp\static\plugins\jquery" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA_Storage\kuaidi\src\test" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\images" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\js" />
+      <recent name="F:\IDEA_Storage\kuaidi\src\main\webapp\static\html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserControllerTest.realUser">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuaidi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.getBasicInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuaidi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="getBasicInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.loginWithCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuaidi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="loginWithCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.realUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuaidi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="realUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuaidi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat-9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="kuaidi:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_kuaidi_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56806" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="kuaidi:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserControllerTest" />
+      <item itemvalue="JUnit.UserControllerTest.getBasicInfo" />
+      <item itemvalue="JUnit.UserControllerTest.loginWithCode" />
+      <item itemvalue="JUnit.UserControllerTest.realUser" />
+      <item itemvalue="JUnit.UserControllerTest.testAddUser" />
+      <item itemvalue="Tomcat Server.Tomcat-9.0.24" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.realUser" />
+        <item itemvalue="JUnit.UserControllerTest.getBasicInfo" />
+        <item itemvalue="JUnit.UserControllerTest.testAddUser" />
+        <item itemvalue="JUnit.UserControllerTest.loginWithCode" />
+        <item itemvalue="JUnit.UserControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8238205e-9699-435a-a524-309158160b8e" name="Default Changelist" comment="" />
+      <created>1571840897025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571840897025</updated>
+      <workItem from="1571840898761" duration="731000" />
+      <workItem from="1571841645792" duration="996000" />
+      <workItem from="1571847012425" duration="14000" />
+      <workItem from="1571881098551" duration="1072000" />
+      <workItem from="1571882363708" duration="119000" />
+      <workItem from="1571882530350" duration="1276000" />
+      <workItem from="1571886037842" duration="305000" />
+      <workItem from="1571886438597" duration="4567000" />
+      <workItem from="1571892143517" duration="2409000" />
+      <workItem from="1571894589712" duration="725000" />
+      <workItem from="1571895330442" duration="245000" />
+      <workItem from="1571895587819" duration="7247000" />
+      <workItem from="1571915230955" duration="2757000" />
+      <workItem from="1571918080262" duration="20000" />
+      <workItem from="1571918112733" duration="172000" />
+      <workItem from="1571918386924" duration="1025000" />
+      <workItem from="1571919491252" duration="24000" />
+      <workItem from="1571919536898" duration="13000" />
+      <workItem from="1571919583504" duration="1994000" />
+      <workItem from="1571921640960" duration="1328000" />
+      <workItem from="1571923091441" duration="33000" />
+      <workItem from="1571923329917" duration="1357000" />
+      <workItem from="1571924732173" duration="1296000" />
+      <workItem from="1571926625263" duration="717000" />
+      <workItem from="1571927505389" duration="4489000" />
+      <workItem from="1571972266498" duration="1142000" />
+      <workItem from="1571973471198" duration="81000" />
+      <workItem from="1571973571438" duration="203000" />
+      <workItem from="1571973809883" duration="934000" />
+      <workItem from="1571975423202" duration="166000" />
+      <workItem from="1571975626307" duration="6401000" />
+      <workItem from="1571996105118" duration="7045000" />
+      <workItem from="1572008553885" duration="7585000" />
+      <workItem from="1572017908355" duration="745000" />
+      <workItem from="1572018711944" duration="93000" />
+      <workItem from="1572018830345" duration="35000" />
+      <workItem from="1572018877846" duration="224000" />
+      <workItem from="1572019119911" duration="246000" />
+      <workItem from="1572019381181" duration="47000" />
+      <workItem from="1572019452568" duration="44000" />
+      <workItem from="1572019511508" duration="1335000" />
+      <workItem from="1572020913710" duration="502000" />
+      <workItem from="1572021475059" duration="18000" />
+      <workItem from="1572021508312" duration="1643000" />
+      <workItem from="1572023199934" duration="214000" />
+      <workItem from="1572023430110" duration="613000" />
+      <workItem from="1572066753379" duration="4388000" />
+      <workItem from="1572071282886" duration="1000000" />
+      <workItem from="1572072474494" duration="4256000" />
+      <workItem from="1572095148216" duration="461000" />
+      <workItem from="1572096525411" duration="656000" />
+      <workItem from="1572105104701" duration="70000" />
+      <workItem from="1572105203322" duration="302000" />
+      <workItem from="1572105579425" duration="814000" />
+      <workItem from="1572106565815" duration="745000" />
+      <workItem from="1572108924766" duration="219000" />
+      <workItem from="1572109512296" duration="1507000" />
+      <workItem from="1572111119535" duration="711000" />
+      <workItem from="1572143939259" duration="8425000" />
+      <workItem from="1572161795241" duration="8420000" />
+      <workItem from="1572172920421" duration="452000" />
+      <workItem from="1572173403072" duration="2935000" />
+      <workItem from="1572179632373" duration="6617000" />
+      <workItem from="1572218856571" duration="13086000" />
+      <workItem from="1572243119103" duration="462000" />
+      <workItem from="1572317651666" duration="4353000" />
+      <workItem from="1572324768981" duration="1769000" />
+      <workItem from="1572345489893" duration="378000" />
+      <workItem from="1572347051805" duration="20000" />
+      <workItem from="1572349511035" duration="8004000" />
+      <workItem from="1572413160809" duration="828000" />
+      <workItem from="1572422236502" duration="420000" />
+      <workItem from="1572423219796" duration="176000" />
+      <workItem from="1572443102539" duration="193000" />
+      <workItem from="1572443397106" duration="107000" />
+      <workItem from="1572501812833" duration="2523000" />
+      <workItem from="1572511073476" duration="4471000" />
+      <workItem from="1572524211238" duration="76000" />
+      <workItem from="1572524304749" duration="740000" />
+      <workItem from="1572577956596" duration="2087000" />
+      <workItem from="1572585290133" duration="35000" />
+      <workItem from="1572585366524" duration="36000" />
+      <workItem from="1572585416886" duration="26000" />
+      <workItem from="1572585464955" duration="661000" />
+      <workItem from="1572586192801" duration="1201000" />
+      <workItem from="1572587560433" duration="8000" />
+      <workItem from="1572587589721" duration="165000" />
+      <workItem from="1572587778384" duration="1861000" />
+      <workItem from="1572589688470" duration="1623000" />
+      <workItem from="1572591518542" duration="2496000" />
+      <workItem from="1572598427656" duration="210000" />
+      <workItem from="1572616989020" duration="3676000" />
+      <workItem from="1572671402207" duration="7152000" />
+      <workItem from="1572684608994" duration="6722000" />
+      <workItem from="1572756501439" duration="22506000" />
+      <workItem from="1572782698512" duration="10940000" />
+      <workItem from="1572795183135" duration="178000" />
+      <workItem from="1572831370252" duration="505000" />
+      <workItem from="1572832143609" duration="12075000" />
+      <workItem from="1572871756640" duration="4306000" />
+      <workItem from="1572881052763" duration="372000" />
+      <workItem from="1572885520612" duration="1848000" />
+      <workItem from="1572922209857" duration="18000" />
+      <workItem from="1572923795183" duration="98000" />
+      <workItem from="1572923994305" duration="241000" />
+      <workItem from="1572924338403" duration="282000" />
+      <workItem from="1572926780434" duration="27000" />
+      <workItem from="1572926944239" duration="41539000" />
+      <workItem from="1573007940486" duration="20581000" />
+      <workItem from="1573043292374" duration="15256000" />
+      <workItem from="1573135121071" duration="25000" />
+      <workItem from="1573175303080" duration="3581000" />
+      <workItem from="1573186369647" duration="12051000" />
+      <workItem from="1573270376674" duration="26410000" />
+      <workItem from="1573352773079" duration="15678000" />
+      <workItem from="1573396700625" duration="32386000" />
+      <workItem from="1573526042896" duration="3910000" />
+      <workItem from="1573543064679" duration="11778000" />
+      <workItem from="1573564184513" duration="4668000" />
+      <workItem from="1573611513300" duration="2980000" />
+      <workItem from="1573614551237" duration="5908000" />
+      <workItem from="1573636122929" duration="1317000" />
+      <workItem from="1573643176317" duration="49000" />
+      <workItem from="1573643238469" duration="22000" />
+      <workItem from="1573643280161" duration="18000" />
+      <workItem from="1573644463398" duration="9000" />
+      <workItem from="1573644767457" duration="49000" />
+      <workItem from="1573644898474" duration="230000" />
+      <workItem from="1573645185869" duration="251000" />
+      <workItem from="1573646233823" duration="424000" />
+      <workItem from="1573647196833" duration="670000" />
+      <workItem from="1573648210403" duration="2108000" />
+      <workItem from="1573650334822" duration="12542000" />
+      <workItem from="1573697801395" duration="5384000" />
+      <workItem from="1573707865129" duration="293000" />
+      <workItem from="1573708190462" duration="65000" />
+      <workItem from="1573708466102" duration="10341000" />
+      <workItem from="1573739503450" duration="547000" />
+      <workItem from="1573797190709" duration="6721000" />
+      <workItem from="1573831903225" duration="2437000" />
+      <workItem from="1573876056108" duration="26873000" />
+      <workItem from="1573911249927" duration="4725000" />
+      <workItem from="1573962746907" duration="1787000" />
+      <workItem from="1573968210893" duration="26000" />
+      <workItem from="1573968358152" duration="201000" />
+      <workItem from="1573969018105" duration="373000" />
+      <workItem from="1573969474356" duration="8628000" />
+      <workItem from="1573982291941" duration="20000" />
+      <workItem from="1573982428478" duration="93000" />
+      <workItem from="1573996945543" duration="916000" />
+      <workItem from="1574240980145" duration="101000" />
+      <workItem from="1574241145934" duration="29177000" />
+      <workItem from="1574406192446" duration="119000" />
+      <workItem from="1574406435482" duration="8655000" />
+      <workItem from="1574555377549" duration="2751000" />
+      <workItem from="1574641425362" duration="12393000" />
+      <workItem from="1574682536200" duration="7535000" />
+      <workItem from="1574737320652" duration="15464000" />
+      <workItem from="1574775450210" duration="479000" />
+      <workItem from="1574783050312" duration="2906000" />
+      <workItem from="1574815080403" duration="29587000" />
+      <workItem from="1574865574665" duration="37055000" />
+      <workItem from="1575027582631" duration="6556000" />
+      <workItem from="1575077275707" duration="18023000" />
+      <workItem from="1575103592921" duration="18553000" />
+      <workItem from="1575168671926" duration="2202000" />
+      <workItem from="1575304554250" duration="914000" />
+      <workItem from="1575329204246" duration="30000" />
+      <workItem from="1575347718075" duration="3094000" />
+      <workItem from="1575351994940" duration="10174000" />
+      <workItem from="1575455118106" duration="12342000" />
+      <workItem from="1580031708353" duration="261000" />
+      <workItem from="1580032721459" duration="1165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 11h 14m 37s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 11h 17m 24s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 11h 31m 05s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 11h 52m 15s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 11h 54m 54s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_getBasicInfo - 2019.12.05 at 11h 55m 29s.xml">
+      <configuration name="UserControllerTest.getBasicInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 15h 28m 57s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 15h 37m 07s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 15h 51m 06s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest_realUser - 2019.12.05 at 15h 56m 15s.xml">
+      <configuration name="UserControllerTest.realUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="832" y="355" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580031735231">
+      <screen x="67" y="27" width="1849" height="874" />
+    </state>
+    <state x="832" y="355" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1849.874@67.27.1849.874" timestamp="1580031735231" />
+    <state x="524" y="89" width="987" height="716" key="Maven.ArtifactSearchDialog" timestamp="1580033215302">
+      <screen x="67" y="27" width="1849" height="874" />
+    </state>
+    <state x="524" y="89" width="987" height="716" key="Maven.ArtifactSearchDialog/67.27.1849.874@67.27.1849.874" timestamp="1580033215302" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/static/jsp/confirm.jsp</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>kuaidi:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (kuaidi)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/jquery</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|kuaidi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-core:5.0.11.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
